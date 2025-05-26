@@ -74,4 +74,5 @@ def predict_heart_failure():
 
 # Run the Flask app
 if __name__ == "__main__":
-    api.run(port=8000)
+    api.run(host="0.0.0.0", port=8000)
+
